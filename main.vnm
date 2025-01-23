@@ -1,0 +1,25 @@
+MEM [  0 ]:         0 ; a
+MEM [  1 ]:         1 ; b
+MEM [  2 ]:        10 ; n
+MEM [  3 ]:           ; wynik
+
+MEM [  4 ]: load D 2
+MEM [  5 ]: jzero C 15;
+
+MEM [  6 ]: load D 0
+MEM [  7 ]: add D 1
+MEM [  8 ]: store C 1
+
+MEM [  9 ]: sub D 0
+MEM [ 10 ]: store C 0
+
+MEM [ 11 ]: load D 2
+MEM [ 12 ]: sub C 1
+MEM [ 13 ]: store C 2
+
+MEM [ 14 ]: jump C 5
+
+MEM [ 15 ]: load D 0
+MEM [ 16 ]: store C 3
+
+MEM [ 17 ]: stop

@@ -1,0 +1,19 @@
+MEM [  0 ]:         3 ; p
+MEM [  1 ]:         1 ; q
+MEM [  2 ]:           ; ~p
+MEM [  3 ]:           ; ~q
+MEM [  4 ]:           ; koniunkcja p i ~q
+MEM [  5 ]:           ; koniunkcja ~p i q
+MEM [  6 ]:           ; alternatywa MEM [ 5 ] i MEM [ 6 ]
+MEM [  7 ]: not   D 0
+MEM [  8 ]: store C 2
+MEM [  9 ]: not   D 1
+MEM [ 10 ]: store C 3
+MEM [ 11 ]: load  D 0
+MEM [ 12 ]: and   D 3
+MEM [ 13 ]: store C 4
+MEM [ 14 ]: load  D 2
+MEM [ 15 ]: and   D 1
+MEM [ 16 ]: or    D 4
+MEM [ 17 ]: store C 6
+MEM [ 18 ]: stop

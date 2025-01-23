@@ -1,0 +1,6 @@
+MEM [ 0 ]:         3 ; x
+MEM [ 1 ]:           ; -x
+MEM [ 2 ]: load  C 0 ; AC = 0
+MEM [ 3 ]: sub   D 0 ; AC = AC - MEM [ 0 ] = 0 - x = -x
+MEM [ 4 ]: store C 1 ; MEM [ 1 ] = AC
+MEM [ 5 ]: stop

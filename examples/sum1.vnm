@@ -1,0 +1,24 @@
+MEM [  0 ]: load  C  0
+MEM [  1 ]: store C 19
+MEM [  2 ]: load  C 21
+MEM [  3 ]: store C 18
+MEM [  4 ]: load  C 21
+MEM [  5 ]: add   D 20
+MEM [  6 ]: sub   D 18
+MEM [  7 ]: jzero C 15
+MEM [  8 ]: load  D 19
+MEM [  9 ]: add   I 18
+MEM [ 10 ]: store C 19
+MEM [ 11 ]: load  D 18
+MEM [ 12 ]: add   C  1
+MEM [ 13 ]: store C 18
+MEM [ 14 ]: jump  C  4
+MEM [ 15 ]: stop
+MEM [ 18 ]:            ; pamięć pomocnicza - aux 
+MEM [ 19 ]:            ; wynik
+MEM [ 20 ]:          5 ; n
+MEM [ 21 ]:          1 ; pierwszy element
+MEM [ 22 ]:          2 ; drugi element
+MEM [ 23 ]:          3 ; trzeci element
+MEM [ 24 ]:          4 ; czwarty element
+MEM [ 25 ]:          5 ; piąty element

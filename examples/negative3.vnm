@@ -1,0 +1,6 @@
+MEM [ 0 ]:         3 ; x
+MEM [ 1 ]:           ; -x
+MEM [ 2 ]: not   D 0 
+MEM [ 3 ]: add   C 1
+MEM [ 4 ]: store C 1
+MEM [ 5 ]: stop

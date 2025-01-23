@@ -1,0 +1,36 @@
+MEM [  0 ]:            ; wynik
+MEM [  1 ]:          5 ; liczba elementów w pamięci - n
+MEM [  2 ]:          1 ; pierwszy element
+MEM [  3 ]:          2 ; drugi element
+MEM [  4 ]:          3 ; trzeci element
+MEM [  5 ]:          4 ; czwarty element
+MEM [  6 ]:          5 ; piąty element
+MEM [  7 ]:
+MEM [  8 ]:
+MEM [  9 ]:
+MEM [ 10 ]:
+MEM [ 11 ]:
+MEM [ 12 ]:
+MEM [ 13 ]:
+MEM [ 14 ]:
+MEM [ 15 ]:
+MEM [ 16 ]:
+MEM [ 17 ]:
+MEM [ 18 ]:
+MEM [ 19 ]:
+MEM [ 20 ]:
+MEM [ 21 ]:
+MEM [ 22 ]: load  C  0
+MEM [ 23 ]: store C  0
+MEM [ 24 ]: load  D  1
+MEM [ 25 ]: sub   C  1
+MEM [ 26 ]: jneg  C 35
+MEM [ 27 ]: store C  1
+MEM [ 28 ]: load  D  0
+MEM [ 29 ]: add   D  2
+MEM [ 30 ]: store C  0
+MEM [ 31 ]: load  D 29
+MEM [ 32 ]: add   C  1
+MEM [ 33 ]: store C 29
+MEM [ 34 ]: jump  C 24
+MEM [ 35 ]: stop

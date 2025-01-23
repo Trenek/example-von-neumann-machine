@@ -1,0 +1,6 @@
+MEM [ 0 ]: load C 3 ; załadowanie do akumulatora zakresu pętli
+MEM [ 1 ]: sub C 1 ; dekrementacja akumulatora
+MEM [ 2 ]: jneg C 4 ; skok na koniec gdy akumulator jest ujemny
+MEM [ 3 ]: jump C 1 ; skok do powtórnego wykonania
+                    ; dla akumulatora nieujemnego
+MEM [ 4 ]: stop
